@@ -1,0 +1,45 @@
+
+.header {
+    position: relative;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+    color: #fff;
+}
+body {
+    background-image: url("../images/bus2.jpg.jpg");
+    background-size: cover;
+}
+.box{
+    backdrop-filter: blur(1px);
+    background-color: transparent;
+    position: relative;
+    width:50%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px 12px black;
+    height: 50vh;
+}
+.speed{
+    text-align: center;
+    color:#608ad2;
+}
+.text{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.text2{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+h4{
+    text-align: center;
+}
+P{
+    text-align: center;
+}
+

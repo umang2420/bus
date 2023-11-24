@@ -1,0 +1,33 @@
+h3{
+    text-align: center;
+}
+
+.bus-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bus-seat {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.seat-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.seat-button:hover {
+    background-color:green;
+}
+
+.seat-button.selected {
+    background-color: #007bff;
+    color: #fff;
+}
