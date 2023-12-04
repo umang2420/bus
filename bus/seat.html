@@ -3,95 +3,97 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bus Tickets Available</title>
-    <link rel="stylesheet" href="assets/css/maxcdn.bootstrapcdn.com_bootstrap_3.4.1_css_bootstrap.min.css">
+    <title>Bus Tickets</title>
     <link rel="stylesheet" href="assets/css/seat.css">
-
 </head>
 
 <body>
+
     <h3>Bus Tickets Available</h3>
 
-    <div class="bus-container">
-        <div class="bus-seat" id="seat-1">
-            <button class="seat-button">1</button>
+    <div id="seats">
+
+        <div class="seat">
+            <button class="seat-button" data-price="100">1</button>
         </div>
-        <div class="bus-seat" id="seat-2">
-            <button class="seat-button">2</button>
+
+        <div class="seat">
+            <button class="seat-button" data-price="100">2</button>
         </div>
-        <div class="bus-seat" id="seat-3">
-            <button class="seat-button">3</button>
+        <div class="seat">
+            <button class="seat-button" data-price="100">3</button>
         </div>
-    </div>
-    <div class="bus-container">
-        <div class="bus-seat" id="seat-1">
-            <button class="seat-button">4</button>
+        <div class="seat">
+            <button class="seat-button" data-price="100">4</button>
         </div>
-        <div class="bus-seat" id="seat-2">
-            <button class="seat-button">5</button>
+        <div class="seat">
+            <button class="seat-button" data-price="100">5</button>
         </div>
-        <div class="bus-seat" id="seat-3">
-            <button class="seat-button">6</button>
+        <div class="seat">
+            <button class="seat-button" data-price="100">6</button>
         </div>
-    </div>
-    <div class="bus-container">
-        <div class="bus-seat" id="seat-1">
-            <button class="seat-button">7</button>
+        <div class="seat">
+            <button class="seat-button" data-price="100">7</button>
         </div>
-        <div class="bus-seat" id="seat-2">
-            <button class="seat-button">8</button>
+        <div class="seat">
+            <button class="seat-button" data-price="100">8</button>
         </div>
-        <div class="bus-seat" id="seat-3">
-            <button class="seat-button">9</button>
+        <div class="seat">
+            <button class="seat-button" data-price="100">9</button>
         </div>
-    </div>
-    <div class="bus-container">
-        <div class="bus-seat" id="seat-1">
-            <button class="seat-button">10</button>
+        <div class="seat">
+            <button class="seat-button" data-price="100">10</button>
         </div>
-        <div class="bus-seat" id="seat-2">
-            <button class="seat-button">11</button>
-        </div>
-        <div class="bus-seat" id="seat-3">
-            <button class="seat-button">12</button>
+        <div class="seat">
+            <button class="seat-button" data-price="200">11</button>
         </div>
     </div>
-    <div class="bus-container">
-        <div class="bus-seat" id="seat-1">
-            <button class="seat-button">13</button>
-        </div>
-        <div class="bus-seat" id="seat-2">
-            <button class="seat-button">14</button>
-        </div>
-        <div class="bus-seat" id="seat-3">
-            <button class="seat-button">15</button>
-        </div>
+    <div class="seat">
+        <button class="seat-button" data-price="200">12</button>
     </div>
-    <div class="bus-container">
-        <div class="bus-seat" id="seat-1">
-            <button class="seat-button">16</button>
-        </div>
-        <div class="bus-seat" id="seat-2">
-            <button class="seat-button">17</button>
-        </div>
-        <div class="bus-seat" id="seat-3">
-            <button class="seat-button">18</button>
-        </div>
     </div>
-    <div class="bus-container">
-        <div class="bus-seat" id="seat-1">
-            <button class="seat-button">19</button>
-        </div>
-        <div class="bus-seat" id="seat-2">
-            <button class="seat-button">20</button>
-        </div>
-        <div class="bus-seat" id="seat-2">
-            <button class="seat-button">21</button>
-        </div>
+    <div class="seat">
+        <button class="seat-button" data-price="200">13</button>
     </div>
-        <!-- <button type="submit" class="btn2" id="btn2">Register</button> -->
-    
+    </div>
+    <div class="seat">
+        <button class="seat-button" data-price="200">14</button>
+    </div>
+    </div>
+    <div class="seat">
+        <button class="seat-button" data-price="200">15</button>
+    </div>
+    </div>
+    <div class="seat">
+        <button class="seat-button" data-price="200">16</button>
+    </div>
+    </div>
+    <div class="seat">
+        <button class="seat-button" data-price="200">17</button>
+    </div>
+    </div>
+    <div class="seat">
+        <button class="seat-button" data-price="200">18</button>
+    </div>
+    </div>
+    <div class="seat">
+        <button class="seat-button" data-price="200">19</button>
+    </div>
+    </div>
+    <div class="seat">
+        <button class="seat-button" data-price="200">20</button>
+    </div>
+        
+    <p>
+        Total price: <span id="total-price">0</span>
+    </p>
+    <div class="speed"><button type="submit" class="btn btn-primary" id="btn3">Submit</button>
+    </div>
+
+
+    <script src="assets/js/seat.js"></script>
+
+
 </body>
 
 </html>

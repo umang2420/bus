@@ -1,33 +1,41 @@
+body{
+    background-image: url(../images/bus2.jpg.jpg);
+    background-size: cover;
+}
 h3{
-    text-align: center;
+    color:white;
+    font-size: 30px;
 }
-
-.bus-container {
-    display: flex;
-    justify-content: center;
-}
-
-.bus-seat {
+.seat {
+    display: inline-block;
     margin: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
 }
 
 .seat-button {
-    width: 40px;
-    height: 40px;
+    background: #ddd; 
     border: none;
-    background-color: #fff;
-    color: #000;
-    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
     cursor: pointer;
 }
-
 .seat-button:hover {
     background-color:green;
 }
 
 .seat-button.selected {
-    background-color: #007bff;
-    color: #fff;
+    background: #007bff;
+    color: white;
 }
+p{
+    color: white;
+    font-size: 25px;
+}
+.speed{
+    color:#608ad2;
+}
+
+
+
+
+
+
